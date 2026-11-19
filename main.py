@@ -45,7 +45,13 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "http://127.0.0.1:8000",
         "https://app-managment-backend-2.onrender.com",
+        "https://app-managment-frontend.vercel.app",
+        
+        
+        
+        
     ],
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

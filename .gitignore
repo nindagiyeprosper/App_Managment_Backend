@@ -1,6 +1,9 @@
-build/ 
-dist/ 
-*.exe 
-*.pkg 
-venv/ 
-__pycache__/ 
+.env
+venv/
+__pycache__/
+*.pyc
+*.db
+*.sql
+uploads/
+.vscode/
+*.spec
